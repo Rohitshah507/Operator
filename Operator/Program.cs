@@ -27,7 +27,11 @@ namespace OperatorsApp
 
             Console.WriteLine("\nAll methods executed successfully!");
             Console.WriteLine("Press any key to exit...");
-            Console.ReadKey();
+
+            NullOperations ops = new NullOperations();
+            ops.PerformNullChecks();
+
+            Console.ReadLine(); // keep console open
         }
     }
 }
